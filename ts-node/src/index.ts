@@ -1,3 +1,5 @@
-import { pokemon } from "./generics/get-pokemon";
+import { Pokemon } from './decorators/pokemon-class';
 
-console.log(pokemon());
+const charmander = new Pokemon('Charmander');
+
+console.log(charmander);
